@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MIPR 2026 Demo | Multi Local Modelings</title>
+    <meta
+      name="description"
+      content="MIPR 2026 demo page for AI-generated song comparisons: Human, Global Model, and Multi Local Modelings."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">MIPR 2026 Demo</p>
+      <h1>Multi Local Modelings for AI Song Generation</h1>
+      <p class="subtitle">
+        A lightweight demo page for reviewers and readers to quickly listen to
+        sample songs.
+      </p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>How to use this page</h2>
+        <p>
+          Press play on any embedded video. The page keeps loading responsive by
+          using plain HTML/CSS/JavaScript and lazy-loaded YouTube iframes.
+        </p>
+      </section>
+
+      <section class="group" aria-labelledby="local-title">
+        <h2 id="local-title">Multi Local Modelings Generated Songs</h2>
+        <div class="video-grid" id="localSongs"></div>
+      </section>
+
+      <section class="group" aria-labelledby="global-title">
+        <h2 id="global-title">Global Model Generated Songs</h2>
+        <div class="video-grid" id="globalSongs"></div>
+      </section>
+
+      <section class="group" aria-labelledby="human-title">
+        <h2 id="human-title">Joseph Haydn Songs</h2>
+        <div class="video-grid" id="humanSongs"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>
+        Built with plain HTML, CSS, and JavaScript for fast GitHub Pages hosting.
+      </small>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

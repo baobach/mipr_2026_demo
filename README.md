@@ -1,0 +1,2 @@
+# MIPR Demo Page
+This is the demo page for the MIPR 2026 conference. It is a website that display the YouTube videos of the AI generated songs from the proposed technique Multi Local Modelings. This also show the comparision between the Human composed songs, Global model generated songs and the Multi Local Modelings generated songs. The website is built using HTML, CSS and JavaScript. The YouTube videos are embedded using the YouTube API. The website is hosted on GitHub Pages.
